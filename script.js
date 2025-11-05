@@ -5,8 +5,8 @@ function scam(){
     }
     Notification.requestPermission().then((Permission)=>{
         const notificationOptions = {
-            body:"Oh no! Your computer got hacked!",
+            body:"Oh no! Your computer got hacked by user 0xF89028!",
         }
-        new Notification("Push Notification",notificationOptions);
+        new Notification("Error:",notificationOptions);
     })
 };
