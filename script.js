@@ -10,6 +10,6 @@ function scam(){
                 body:"Oh no! Your computer got hacked by user 0xF89028!",
             }
             new Notification("Error:",notificationOptions);
-        })
-}
+        }
+});
 };
