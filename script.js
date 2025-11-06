@@ -1,5 +1,6 @@
 const Notifybtn = document.querySelector("scam");
 function scam(){
+    while (true){
     if(!("Notification" in window)){
         throw new Error("Your browser does not support push notification");
     }
@@ -9,4 +10,5 @@ function scam(){
         }
         new Notification("Error:",notificationOptions);
     })
+    };
 };
